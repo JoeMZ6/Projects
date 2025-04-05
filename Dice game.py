@@ -1,7 +1,7 @@
 import random
 while True:
     print("roll the dice (y,n)??:")
-    input_char=str(input().split().lower())
+    input_char=input().lower().strip()
     if input_char =='n':
         print("thanks for playing")
         break
@@ -13,4 +13,3 @@ while True:
         continue
     else:
         print("invalid choice!")
-        
