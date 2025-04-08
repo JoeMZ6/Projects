@@ -23,7 +23,13 @@ while max(player_score)<max_score:
         current_score=0
         
         while  True:
-            should_roll=input('do you want to roll (y) ? 🤔\n')
+
+            while True:
+                should_roll = input('Do you want to roll? (y/n):🤔 ').lower()
+                if should_roll in ['y', 'n']:
+                    break
+                print("Invalid input. Please enter 'y' to roll or 'n' to stop.")
+                
             if should_roll=='y':
                 value=roll()
             else:
