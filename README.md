@@ -9,18 +9,17 @@ Here’s a list of the games in this repository:
 
 Dice Game
 A simple dice-rolling game where players take turns rolling a die and accumulating points. Roll a 1 and lose your turn's score!
-File: Dice game.py
+
 Gambling Game (Multiplayer Version)
 A multiplayer gambling-inspired game where players compete to reach the highest score by rolling dice.
-File: Gambling Game(multiplayer version).py
+
 Guess Game
 A number-guessing game where the player tries to guess a randomly generated number within a limited number of attempts.
-File: Guess Game.py
+
+
 Rock, Paper, Scissors Game
 The classic Rock, Paper, Scissors game. Play against the computer and test your luck!
-Files:
-Basic version: Rock, Paper, Sicissors Game.py
-Upgraded version: Rock,Paper,Scissors Game(upgraded) .py
+
 Gambling Game (Single Player)
 A single-player version of the gambling game where you aim to accumulate points by rolling dice strategically.
-File: Gambling Game.py
+
