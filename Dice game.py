@@ -1,4 +1,4 @@
-import random
+
 while True:
     print("roll the dice (y,n)??:")
     input_char=input().lower().strip()
